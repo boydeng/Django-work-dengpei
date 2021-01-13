@@ -1,0 +1,13 @@
+
+
+{% block title %}Student_dengpeis for {{ year }}{% endblock %}
+
+{% block content %}
+<h1>Student_dengpeis for {{ year }}</h1>
+
+{% for student_dengpei in student_dengpei_list %}
+    <p>{{ student_dengpei.headline }}</p>
+    <p>By {{ student_dengpei>.Commit_man.full_name }}</p>
+    <p>Published {{ student_dengpei.pub_date|date:"F j, Y" }}</p>
+{% endfor %}
+{% endblock %}

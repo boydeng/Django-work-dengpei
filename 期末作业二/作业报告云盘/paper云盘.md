@@ -3,6 +3,7 @@
 ## 一、github中仓库的建立与git操作
 1. git建立初始仓库完成效果
    1. ![图1](./../作业报告Ubuntu/pic2/y0.png )
+   
 2. git公钥产生
    
    ```
@@ -103,14 +104,14 @@
 
         1. ![图14](./../作业报告Ubuntu/pic2/y13.PNG )
         2. ![图15](./../作业报告Ubuntu/pic2/y14.PNG )
-        3. ![图16](./../作业报告Ubuntu/pic2/y18.PNG )
-        4. ![图17](./../作业报告Ubuntu/pic2/y19.PNG )
+        3. ![图16](./../作业报告Ubuntu/pic2/y15.PNG )
+        4. ![图17](./../作业报告Ubuntu/pic2/y16.PNG )
 
 5. 文件上传页面编写
-    1. 增加文件上传的类dengpei_work，创建作业提交网页样式  
+    1. 增加文件上传的类Student_dengpei，创建作业提交网页样式  
       
         1. 效果展示：
-        ![图18](./../作业报告Ubuntu/pic2/y20.PNG )
+        ![图18](./../作业报告Ubuntu/pic2/y17.PNG )
 
 
 
@@ -119,4 +120,5 @@
 > 1. 所有程序借助Django文档编写，若出现失误以文档为准。
 > 2. Django文档链接：
     [Django文档](https://docs.djangoproject.com/en/3.1/ 'Django')
-> 3. 所有图片编码从0开始
+> 3. 所有图片编码从0开始：图一对应图片y0，图二对应y1,
+>以此类推
