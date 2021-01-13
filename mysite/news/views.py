@@ -14,7 +14,7 @@ from .models import student_dengpei, yunpan_work
 
 from django.views.generic.edit import CreateView
 
-class dengpei_Homework(CreateView):
+class Dengpei_work(CreateView):
     model = yunpan_work
-    template_name = 'dengpei_homework.html'
+    template_name = 'dengpei_work.html'
     fields = ['headline','attach','remark', 'student_dengpei']

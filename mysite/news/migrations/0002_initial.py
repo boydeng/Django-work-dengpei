@@ -13,12 +13,12 @@ class Migration(migrations.Migration):
             name='Student_dengpei',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('full_name', models.CharField(max_length=80)),
+                ('full_name', models.CharField(max_length=70)),
                 ('sex', models.IntegerField(choices=[(1, '男'), (0, '女')])),
             ],
         ),
         migrations.CreateModel(
-            name='yunpan_work',
+            name='dnegpei_work',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('commit_date', models.DateField()),
